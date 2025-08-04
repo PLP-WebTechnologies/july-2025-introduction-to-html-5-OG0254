@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Brian Ogada's accessible, semantic HTML5 portfolio demonstrating backend development skills, SEO structure, and clean code.">
+    <meta name="author" content="Brian Ogada">
+    <title>Brian Ogada | Accessible HTML5 Portfolio</title>
+</head>
+<body>
+
+    <header>
+        <h1>Brian Ogada</h1>
+        <p>Web Developer | Problem Solver | Tech Enthusiast</p>
+
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="about" aria-labelledby="about-heading">
+            <h2 id="about-heading">About Me</h2>
+            <p>
+                I'm an aspiring backend developer with a strong focus on Python and a growing command of web technologies and database systems. While my journey began with building responsive websites using raw HTML and CSS, my true passion lies in crafting powerful, scalable backend systems that drive modern applications.
+            </p>
+            <p>
+                I’m actively building a solid foundation in backend development, diving deep into Python, FastAPI, PostgreSQL, and automation tools like Selenium and the OS module. I’m also familiarizing myself with databases and APIs—key components in modern backend work.
+            </p>
+            <p>
+                I approach each project as a learning opportunity, blending curiosity with discipline. Whether it's participating in coding hackathons, building CLI tools, or learning new frameworks, I'm committed to mastering backend development and using it to solve real-world problems efficiently.
+            </p>
+        </section>
+
+        <section id="projects" aria-labelledby="projects-heading">
+            <h2 id="projects-heading">Projects</h2>
+
+        <article aria-labelledby="project1-heading">
+            <h3 id="project1-heading">Freelancer Income & Expense Manager (CLI App)</h3>
+            <p>
+                Built a Python-based command-line application to track and manage freelance income and expenses. Features include record keeping, balance summaries, and a modular OOP structure using file operations.
+            </p>
+        </article>
+
+        <article aria-labelledby="project2-heading">
+            <h3 id="project2-heading">Portfolio Website (Hackathon Project)</h3>
+            <p>
+                Developed a responsive personal portfolio using only HTML and CSS for a coding hackathon. Demonstrates proficiency in semantic structuring, responsive layout techniques, and styling from scratch without external libraries.
+            </p>
+        </article>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-heading">
+        <h2 id="contact-heading">Contact</h2>
+        <p>Email: <a href="mailto:ogadabrian2@gmail.com">ogadabrian2@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/brianogada" target="_blank" rel="noopener">linkedin.com/in/brianogada</a></p>
+    </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Brian Ogada. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
